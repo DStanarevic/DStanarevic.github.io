@@ -1,7 +1,24 @@
-﻿body {
-    background-image: url('images/bannerCover.jpg');
+﻿.wrapper.style1{
+    background-image: url('images/bannerCover.jpg') !important;
+    background-size:cover;
+    background-color: #3b5998;
 }
 
-.sidebar{
-    color:black
+#sidebar{
+    background:black;
+}
+
+#one {
+    background-image: url('images/bannerCover.jpg');
+    background-size:cover;
+}
+
+#two{
+    background-image: url('images/bannerCover.jpg');
+    background-size:cover;
+}
+
+#three{
+    background-image: url('images/bannerCover.jpg');
+    background-size:cover;
 }

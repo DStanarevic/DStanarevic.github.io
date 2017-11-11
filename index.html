@@ -22,9 +22,9 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
+							<li><a href="#introPart">Welcome</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">About me</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
 					</nav>
@@ -35,11 +35,10 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="introPart" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Portfolio</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<p>Dejan Stanarevic</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -133,26 +132,29 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>If you would like to reach out to me, you can use the form below to send me an email.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><a href="dejanstanarevic@gmail.com" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
+
+                                        <form action="https://formspree.io/DejanStanarevic@gmail.com"
+                                                 method="POST">
+                                            <div class="field half first">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name">
+                                            </div>
+                                            <div class="field half">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="_replyto">
+                                            </div>
+                                            <div class="field">
+                                                <label for="textarea">Message</label>
+                                                <textarea name="textarea">
+
+                                                </textarea> 
+                                            </div>
+                                                <input type="submit" value="Send">
+                                        </form>
+									<!--</form>-->
 								</section>
 								<section>
 									<ul class="contact">
@@ -183,6 +185,10 @@
 				<div class="inner">
 					<ul class="menu">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <p>
+                            Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+                            and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.
+                        </p>
 					</ul>
 				</div>
 			</footer>
