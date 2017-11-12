@@ -4,21 +4,29 @@
     background-color: #3b5998;
 }
 
+.wrapper.style2{
+    background-color:#55ACEE;
+}
+.wrapper.style3{
+    background-color:#DD4B39;
+}
+
 #sidebar{
     background:black;
 }
 
-#one {
-    background-image: url('images/bannerCover.jpg');
-    background-size:cover;
+contentOne {
+    background-image: url('../../images/ApexRacing.PNG');
+}
+#projectOne {
+    height: 500px;
+    background-image: url('../../images/ApexRacing.PNG');
 }
 
-#two{
-    background-image: url('images/bannerCover.jpg');
-    background-size:cover;
+#picLocationOne{
+    height:50px;
+    width:100px;
 }
 
-#three{
-    background-image: url('images/bannerCover.jpg');
-    background-size:cover;
-}
+
+
