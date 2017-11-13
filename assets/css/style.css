@@ -15,18 +15,16 @@
     background:black;
 }
 
-contentOne {
-    background-image: url('../../images/ApexRacing.PNG');
-}
-#projectOne {
-    height: 500px;
-    background-image: url('../../images/ApexRacing.PNG');
+#profilePicture{
+    border-radius:50%;
+    float:right;
 }
 
-#picLocationOne{
+
+/*#picLocationOne{
     height:50px;
     width:100px;
-}
+}*/
 
 
 
